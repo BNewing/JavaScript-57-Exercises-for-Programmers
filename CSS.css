@@ -7,3 +7,15 @@ html {
   line-height: 1.5;
   letter-spacing: 1.5px;
 }
+
+a:link {
+  color: #00ee80;
+}
+
+a:visited {
+  color: #009700;
+}
+
+a:hover {
+  color: #00e5ee;
+}
