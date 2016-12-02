@@ -1,4 +1,4 @@
 function getName() {
-  document.getElementById("yourName").innerHTML = document.getElementById("name").value;
-  document.getElementById("form").reset();
+  document.getElementById("yourName").innerHTML = "Hello, " + document.getElementById("name").value + "!";
+  form.reset();
 }
