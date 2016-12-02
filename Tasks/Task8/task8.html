@@ -10,17 +10,24 @@
 <h4><a href="../../index.html">Back to the index page</a></h4>
 <h2> Task 8: Pizza Party </h2>
 
-<form onsubmit="return false">
+<form onsubmit="return false" id="form">
   How many people?
   <input type="text" value="" id="people">
   <br>
   How many pizzas do you have?
   <input type="text" value="" id="pizza">
   <br>
+  How many slices per pizza are there?
+  <input type="text" value="" id="slices">
+  <br>
   <input type="button" value="Enter" onClick="collectNumbers()">
 </form>
 
 <p id="pizza-and-people"></p>
+<p id="numberOfSlices"></p>
+<p id="numberPerPerson"></p>
+<p id="slicesPerPerson"></p>
+<p id="leftover"></p>
 
 </body>
 
