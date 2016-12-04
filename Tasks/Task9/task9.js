@@ -1,5 +1,3 @@
-console.log(2);
-
 function getDimensions() {
   var width = document.getElementById("width").value;
   var length = document.getElementById("length").value;
