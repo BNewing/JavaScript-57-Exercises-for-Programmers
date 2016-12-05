@@ -5,7 +5,7 @@ function getAmounts(){
   var item2Quantity = document.getElementById("item2Quantity").value;
   var item3Price = document.getElementById("item3Price").value;
   var item3Quantity = document.getElementById("item3Quantity").value;
-  calculateCosts(item1Price, item1Quantity, item2Price, item2Quantity, item3Price, item3Quantity)
+  calculateCosts(item1Price, item1Quantity, item2Price, item2Quantity, item3Price, item3Quantity);
 }
 
 function calculateCosts(item1Price, item1Quantity, item2Price, item2Quantity, item3Price, item3Quantity){
@@ -20,7 +20,7 @@ function calculateCosts(item1Price, item1Quantity, item2Price, item2Quantity, it
 }
 
 function displayTotals(subtotal, tax, total){
-  document.getElementById("subtotal").innerHTML = "Subtotal: £" + subtotal;
-  document.getElementById("tax").innerHTML = "Tax: £" + tax;
-  document.getElementById("total").innerHTML = "Total: £" + total;
+    document.getElementById("subtotal").innerHTML = "Subtotal: £" + subtotal;
+    document.getElementById("tax").innerHTML = "Tax: £" + tax;
+    document.getElementById("total").innerHTML = "Total: £" + total;
 }
