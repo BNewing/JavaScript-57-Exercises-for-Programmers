@@ -7,3 +7,5 @@ I'll create a GitHub pages index page, and then link to the various challenges o
 This will be an exercise in consolidating and growing my JavaScript knowledge!
 
 Visit this site here: [https://bnewing.github.io/JavaScript-57-Exercises-for-Programmers/](https://bnewing.github.io/JavaScript-57-Exercises-for-Programmers/)
+
+<img src="Images/screenshot.png">
