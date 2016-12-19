@@ -1,6 +1,6 @@
 # JavaScript-57-Exercises-for-Programmers
 
-In this learning project, I'm working through each of the 57 exercises in Brian P. Hogan's book, 'Exercises for Programmers: 57 Challenges to Develop your Coding Skills', in JavaScript.
+In this learning project, I'm working through each of the 57 exercises in Brian P. Hogan's book, [Exercises for Programmers: 57 Challenges to Develop your Coding Skills](https://pragprog.com/book/bhwb/exercises-for-programmers), in JavaScript.
 
 I've created a site and I'm adding each challenge onto a list on the home page as I go!
 
