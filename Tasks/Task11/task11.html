@@ -10,16 +10,14 @@
 <h4><a href="../../index.html">Back to the index page</a></h4>
 <h2> Task 11: Currency Conversion </h2>
 
-<p>A program that converts euros to US dollars.</p>
+<p>A program that converts euros to U.S. dollars.</p>
 
 <form onsubmit="return false">
-  How many euros are you exchanging?
-  <input type="number" value="" id="euros">
-  <br>
-  What is the exchange rate?
-  <input type="number" value="" id="exchangeRate">
-  <br>
-  <input type="button" value="enter" onClick="calculateAmount()">
+  <label for="euros">How many euros are you exchanging?</label>
+  <input type="number" value="" id="euros" required />
+  <label for="exchangeRate">What is the exchange rate?</label>
+  <input type="number" value="" id="exchangeRate" required />
+  <input type="button" value="enter" onClick="checkFilledOut()">
 </form>
 
 <p id="amount"></p>

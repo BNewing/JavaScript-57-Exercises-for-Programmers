@@ -13,15 +13,15 @@
 <p>Enter number of people, number of pizzas and number of slices per pizza, and the program will tell you how many slices each person gets and how many slices will be left over.</p>
 
 <form onsubmit="return false" id="form">
-  How many people?
+  <label for="people">How many people?</label>
   <input type="text" value="" id="people">
-  <br>
-  How many pizzas do you have?
+  
+  <label for="pizza">How many pizzas do you have?</label>
   <input type="text" value="" id="pizza">
-  <br>
-  How many slices per pizza are there?
+
+  <label for="slices">How many slices per pizza are there?</label>
   <input type="text" value="" id="slices">
-  <br>
+  
   <input type="button" value="Enter" onClick="collectNumbers()">
 </form>
 

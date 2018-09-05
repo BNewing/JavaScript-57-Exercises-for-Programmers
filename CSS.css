@@ -19,3 +19,22 @@ a:visited {
 a:hover {
   color: #00e5ee;
 }
+
+label {
+  display: block;
+}
+
+input {
+  border: 1px solid #000000;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+input[type="button"], input[type="submit"] {
+  display: block;
+  background-color: #00ee80;
+  color: black;
+  font-weight: bold;
+  margin-top: 1em;
+  padding: 1em;
+}

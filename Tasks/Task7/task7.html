@@ -13,15 +13,19 @@
 <p>Enter the length and width of the room and the program will tell you how many square metres and square feet are in it.</p>
 
 <form onsubmit="return false">
-  What is the length of the room? <br>
+  <label for="length">What is the length of the room?</label>
   <input type="text" value="" id="length"><br>
 
-  What is the width of the room?<br>
+  <label for="width">What is the width of the room?</label>
   <input type="text" value="" id="width"><br>
 
-  Are the measurements you've entered in feet or metres?<br>
-  <input type="radio" name="colours" id="feet">Feet <br>
-  <input type="radio" name="colours" id="metres"> Metres <br>
+  <fieldset>
+    <legend> Are the measurements you've entered in feet or metres?<legend>
+    <label for="feet">Feet</label>
+    <input type="radio" name="colours" id="feet">
+    <label for="metres">Metres</label>
+    <input type="radio" name="colours" id="metres"> 
+  </fieldset>
 
   <input type="submit" value="Enter" name="button" onclick="checkIfNumber()">
 </form>
