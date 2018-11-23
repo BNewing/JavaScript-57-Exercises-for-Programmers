@@ -4,7 +4,7 @@ In this learning project, I'm working through each of the 57 exercises in Brian 
 
 I've created a site and I'm adding each challenge onto a list on the home page as I go!
 
-Visit this site here: [https://bnewing.github.io/JavaScript-57-Exercises-for-Programmers/](https://bnewing.github.io/JavaScript-57-Exercises-for-Programmers/)
+Visit this site here: [https://webdevbev.co.uk/JavaScript-57-Exercises-for-Programmers/](https://webdevbev.co.uk/JavaScript-57-Exercises-for-Programmers/)
 
 ## 1. Technologies Used
 
