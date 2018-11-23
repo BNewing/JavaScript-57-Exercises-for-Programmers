@@ -1,0 +1,25 @@
+{
+  "name": "javascript-57-exercises-for-programmers",
+  "version": "1.0.0",
+  "description": "In this learning project, I'm working through each of the 57 exercises in Brian P. Hogan's book, [Exercises for Programmers: 57 Challenges to Develop your Coding Skills](https://pragprog.com/book/bhwb/exercises-for-programmers), in JavaScript.",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BNewing/JavaScript-57-Exercises-for-Programmers.git"
+  },
+  "author": "bnewing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BNewing/JavaScript-57-Exercises-for-Programmers/issues"
+  },
+  "homepage": "https://github.com/BNewing/JavaScript-57-Exercises-for-Programmers#readme"
+}
