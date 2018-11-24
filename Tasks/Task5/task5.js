@@ -49,4 +49,7 @@ function displayOnScreen(firstNumber, secondNumber) {
   document.getElementById("multiply").innerHTML = firstNumber + " x " + secondNumber +  " = " + multiplication;
 }
 
-module.exports = addValues;
+module.exports.addValues = addValues;
+module.exports.subtractValues = subtractValues;
+module.exports.divideValues = divideValues;
+module.exports.multiplyValues = multiplyValues;
